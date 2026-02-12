@@ -16,7 +16,7 @@ p {
 /* Specificity Challenge Explanation:
     The ".intro-p" class rule "wins" over the "p" element rule.
     I have left this conflict here to show that the text is blue because class selectors 
-    have higher specificity scores than general element selectors. 
+    have a higher specificity score than general element selectors. 
 */
 
 header {
