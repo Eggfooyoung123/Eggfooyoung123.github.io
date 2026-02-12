@@ -1,0 +1,25 @@
+/* Element Selector */
+p {
+    color: red;
+}
+
+/* Class Selector */
+.intro-p {
+    color: blue;
+}
+
+/* ID Selector */
+#bio {
+    font-size: 18px;
+}
+
+/* Specificity Challenge Explanation:
+    The ".intro-p" class rule "wins" over the "p" element rule.
+    I have left this conflict here to show that the text is blue because class selectors 
+    have higher specificity scores than general element selectors. 
+*/
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
