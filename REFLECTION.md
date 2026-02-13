@@ -4,4 +4,4 @@ Reflection
 
 2. A Docker Container differs from the environment provided by Github Pages because Github Pages is a static hosting environment which means it can host HTML, CSS, and Javascript files but i cannot run backend code such as python script. It also cannot use databases or contain server logic. It is mainly used for simple websites. A Docker Container, on the other hand is a virtualized environment that can package code, libraries, system tools, and the operating system setup. It is able to run servers, databases, backend code, and APIs. It is much more customizable than Github pages and allows full control of the environment.
 
-3. 
+3. I used generative AI to help me add the picture to the website since my code wasn't working. I asked the AI how to reference an image in a subfolder since the picture that I am using is in an assets folder that is outside the html file. One logic error the AI made was suggesting an absolute file path from its own environment, which I had to manually fix to a relative path (assets/web_pic.jpg) to make it work on Github.
