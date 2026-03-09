@@ -24,7 +24,7 @@ header {
     padding: 10px;
 }
 
-/* task 1 flexbox code*/
+/* flexbox code */
 .nav-container {
 display: flex;
     justify-conteent: space-between;
@@ -39,4 +39,15 @@ padding: 15px;
 }
 .linksRight a:hover {
     background-color: yellow;
+}
+
+/* grid showcase code */
+.grid-stuff {
+    display: grid;
+grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.grid-item {
+    border: 1px solid black;
+padding: 10px;
 }
