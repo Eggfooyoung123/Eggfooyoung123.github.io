@@ -52,6 +52,7 @@ grid-template-columns: auto auto auto;
 padding: 10px;
 }
 
+/* adds whitespace between experience and projects sections */
 #projects {
 padding-top: 800px;
 }
