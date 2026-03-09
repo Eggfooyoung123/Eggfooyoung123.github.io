@@ -23,3 +23,20 @@ header {
     background-color: #f0f0f0;
     padding: 10px;
 }
+
+/* task 1 flexbox code*/
+.nav-container {
+display: flex;
+    justify-conteent: space-between;
+align-items: center;
+}
+.logoName {
+    font-size: 24px; font-weight: bold;
+}
+.linksRight a {
+padding: 15px;
+    background-color: lightgray;
+}
+.linksRight a:hover {
+    background-color: yellow;
+}
