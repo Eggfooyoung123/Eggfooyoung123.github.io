@@ -62,6 +62,15 @@ padding-top: 300px;
     .nav-container {
         flex-direction: column;
     }
+    .linksRight {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .linksRight a {
+        text-align: center;
+        margin-top: 5px;
+    }
     .grid-stuff {
         grid-template-columns: auto;
     }
